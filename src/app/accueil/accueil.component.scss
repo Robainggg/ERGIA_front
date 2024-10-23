@@ -1,0 +1,54 @@
+body
+{
+    margin:0;
+}
+
+header{
+background-color: gray; 
+width: 100%;
+}
+
+.navLeft{
+background-color: gray; 
+display: inline-block;
+vertical-align:top;
+padding-top: 25px;
+padding-bottom: 25px;
+padding-left: 75px;
+}
+
+.navRight{
+background-color: gray; 
+vertical-align:top;
+display: inline-block;
+float:right;
+padding-right: 75px;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+    padding:25px;
+}
+
+footer{
+position: fixed;
+background-color: #f5f5f5;
+bottom: 0;
+padding:25px;
+width:100%
+}
+
+.copyright{
+display: inline-block;
+vertical-align:top;
+}
+
+.reseaux{
+vertical-align:top;
+display: inline-block;
+float:right;
+padding-right: 75px;
+}
